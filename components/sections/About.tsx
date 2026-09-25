@@ -7,55 +7,55 @@ import { GraduationCap, Cpu, MapPin, Calendar, Star, Award } from "lucide-react"
 const timeline = [
   {
     year: "2022-2023",
-    title: "12th Grade",
-    subtitle: "Excellence in Science",
+    title: "Class 12th",
+    subtitle: "Science Stream",
     icon: Star,
     color: "#00ff9f",
-    detail: "Achieved 98% — Top percentile nationally in science stream",
-    badge: "98%",
+    detail: "Achieved 96.2% and built a strong foundation in core science and mathematics.",
+    badge: "96.2%",
   },
   {
     year: "2023",
     title: "Joined NIT Srinagar",
-    subtitle: "B.Tech Computer Science Engineering",
+    subtitle: "B.Tech in Computer Science and Engineering",
     icon: GraduationCap,
     color: "#00d4ff",
-    detail: "Accepted into one of India's premier technical institutions",
+    detail: "Started pursuing a degree in Computer Science and Engineering at NIT Srinagar.",
     badge: "NIT",
   },
   {
-    year: "2024",
-    title: "iQuasar Internship",
-    subtitle: "Web Development Intern",
-    icon: Cpu,
-    color: "#a855f7",
-    detail: "Built MERN stack applications, REST APIs, and optimized DB performance",
-    badge: "INTERN",
-  },
-  {
-    year: "2024–2025",
-    title: "DRDO Internship",
-    subtitle: "Software Developer Intern",
-    icon: Award,
-    color: "#ec4899",
-    detail: "Built RAG-based document intelligence system for defense applications",
-    badge: "DRDO",
-  },
-  {
-    year: "2027",
-    title: "B.Tech Graduation",
-    subtitle: "Expected · GPA 8.04",
+    year: "2023-2027",
+    title: "Bachelor's Degree",
+    subtitle: "B.Tech CSE",
     icon: GraduationCap,
     color: "#00fff5",
-    detail: "On track to graduate with strong academic and professional record",
+    detail: "Focused on coding, software engineering, data structures, and real-world application building.",
     badge: "2027",
+  },
+  {
+    year: "2024",
+    title: "Web Development Experience",
+    subtitle: "Full Stack Developer",
+    icon: Cpu,
+    color: "#a855f7",
+    detail: "Working on modern full-stack projects and building scalable web solutions.",
+    badge: "FULL STACK",
+  },
+  {
+    year: "Current",
+    title: "CGPA",
+    subtitle: "7.73",
+    icon: Award,
+    color: "#ec4899",
+    detail: "Maintaining a solid academic record while strengthening technical skills and practical work.",
+    badge: "7.73",
   },
 ];
 
 const statCards = [
-  { value: "8.04", label: "Current GPA", color: "#00d4ff" },
-  { value: "98%", label: "12th Grade Score", color: "#00ff9f" },
-  { value: "2+", label: "Internships", color: "#a855f7" },
+  { value: "7.73", label: "Current CGPA", color: "#00d4ff" },
+  { value: "96.2%", label: "Class 12th Score", color: "#00ff9f" },
+  { value: "2023-2027", label: "Degree Duration", color: "#a855f7" },
   { value: "NIT", label: "Srinagar, India", color: "#ec4899" },
 ];
 
@@ -137,9 +137,9 @@ export default function About() {
             ABOUT ME
           </h2>
           <p className="mt-4 text-slate-400 max-w-xl font-body leading-relaxed">
-            An AI-focused engineer with a passion for building systems that think.
-            From defense-grade document intelligence to real-time web apps — I bridge
-            the gap between research and production.
+            A Computer Science Engineering student with a passion for building practical,
+            user-focused digital experiences. I enjoy full-stack development, problem solving,
+            and turning ideas into working products that can scale.
           </p>
         </motion.div>
 
@@ -190,11 +190,11 @@ export default function About() {
               </div>
               <div className="space-y-3">
                 {[
-                  ["Institution", "NIT Srinagar"],
-                  ["Program", "B.Tech CSE (2023–2027)"],
-                  ["Location", "Srinagar, Jammu & Kashmir"],
-                  ["Focus", "AI/ML · Full Stack · Systems"],
-                  ["Status", "Available for opportunities"],
+                  ["Institution", "National Institute of Technology, Srinagar"],
+                  ["Program", "B.Tech in Computer Science and Engineering"],
+                  ["Duration", "2023–2027"],
+                  ["CGPA", "7.73"],
+                  ["Class 12th", "96.2%"],
                 ].map(([key, val]) => (
                   <div key={key} className="flex items-center justify-between text-sm">
                     <span className="font-mono text-xs text-slate-500 tracking-wider">{key}</span>

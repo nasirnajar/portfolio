@@ -9,9 +9,9 @@ import { TypeAnimation } from "react-type-animation";
 const NeuralBackground = dynamic(() => import("@/components/three/NeuralBackground"), { ssr: false });
 
 const stats = [
-  { value: "8.04", label: "GPA", suffix: "" },
-  { value: "98", label: "12th Grade", suffix: "%" },
-  { value: "2", label: "Internships", suffix: "+" },
+  { value: "CSE", label: "Student", suffix: "" },
+  { value: "NIT", label: "Srinagar", suffix: "" },
+  { value: "2", label: "+ Skills", suffix: "" },
   { value: "3", label: "Projects", suffix: "+" },
 ];
 
@@ -71,7 +71,7 @@ export default function Hero() {
               animation: "gradientShift 6s ease infinite",
             }}
           >
-            SHAH UBAIR
+            NASIR AHMAD
           </h1>
           <style jsx global>{`
             @keyframes gradientShift {
@@ -93,15 +93,15 @@ export default function Hero() {
           {mounted && (
             <TypeAnimation
               sequence={[
-                "AI Engineer",
+                "CSE Student",
                 1500,
                 "Full Stack Developer",
                 1500,
-                "Systems Builder",
-                1500,
-                "RAG Architect",
+                "Web Developer",
                 1500,
                 "Problem Solver",
+                1500,
+                "DSA Enthusiast",
                 1500,
               ]}
               speed={50}
@@ -119,10 +119,9 @@ export default function Hero() {
           transition={{ delay: 0.5 }}
           className="text-slate-400 text-base md:text-lg max-w-xl mx-auto mb-10 font-body leading-relaxed"
         >
-          Building intelligent systems at the intersection of AI and full-stack engineering.
-          Currently at{" "}
-          <span className="text-cyber-blue">NIT Srinagar</span>, crafting scalable
-          solutions that matter.
+          Computer Science Engineering student and full stack developer building practical,
+          scalable web experiences with a strong focus on learning, problem solving, and clean code.
+          Based in <span className="text-cyber-blue">Srinagar, Jammu & Kashmir</span>.
         </motion.p>
 
         {/* Stats row */}
@@ -191,9 +190,11 @@ export default function Hero() {
           className="flex justify-center gap-5"
         >
           {[
-            { Icon: Github, href: "https://github.com/shahubair", label: "GitHub" },
-            { Icon: Linkedin, href: "https://linkedin.com/in/shahubair", label: "LinkedIn" },
-            { Icon: Mail, href: "mailto:shahubair@example.com", label: "Email" },
+            { Icon: Github, href: "https://github.com/nasirnajar", label: "GitHub" },
+            { Icon: Linkedin, href: "https://www.linkedin.com/in/nasir-mohi-u-deen-najar-377aa222b/", label: "LinkedIn" },
+            { Icon: Mail, href: "mailto:2023nitsgr289@nitsri.ac.in", label: "Email" },
+            { Icon: ExternalLink, href: "https://www.geeksforgeeks.org/profile/nasirahmed121", label: "GFG" },
+            { Icon: ExternalLink, href: "https://leetcode.com/u/NasirAhmed321/", label: "LeetCode" },
           ].map(({ Icon, href, label }) => (
             <a
               key={label}

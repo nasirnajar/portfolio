@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import "../styles/globals.css";
 
 export const metadata: Metadata = {
-  title: "Shah Ubair | AI + Full Stack Developer",
-  description: "AI Engineer & Full Stack Developer. NIT Srinagar. Building intelligent systems that matter.",
-  keywords: ["Shah Ubair", "AI Engineer", "Full Stack Developer", "NIT Srinagar", "Portfolio"],
+  title: "Nasir Ahmad | CSE Student & Full Stack Developer",
+  description: "Computer Science Engineering student and full stack developer based in Srinagar, India.",
+  keywords: ["Nasir Ahmad", "Computer Science Student", "Full Stack Developer", "NIT Srinagar", "Portfolio"],
   openGraph: {
-    title: "Shah Ubair | AI + Full Stack Developer",
-    description: "AI Engineer & Full Stack Developer based in Srinagar, India.",
+    title: "Nasir Ahmad | CSE Student & Full Stack Developer",
+    description: "Computer Science Engineering student and full stack developer based in Srinagar, India.",
     type: "website",
   },
 };

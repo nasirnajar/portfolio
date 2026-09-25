@@ -8,26 +8,42 @@ const contactLinks = [
   {
     icon: Mail,
     label: "Email",
-    value: "shahobair20@gmail.com",
-    href: "mailto:shahobair20@gmail.com",
+    value: "2023nitsgr289@nitsri.ac.in",
+    href: "mailto:2023nitsgr289@nitsri.ac.in",
     color: "#00d4ff",
     description: "Fastest response",
   },
   {
     icon: Github,
     label: "GitHub",
-    value: "github.com/shahubair",
-    href: "https://github.com/shahubair",
+    value: "github.com/nasirnajar",
+    href: "https://github.com/nasirnajar",
     color: "#a855f7",
     description: "Code & projects",
   },
   {
     icon: Linkedin,
     label: "LinkedIn",
-    value: "linkedin.com/in/shahubair",
-    href: "https://linkedin.com/in/shahubair",
+    value: "linkedin.com/in/nasir-mohi-u-deen-najar-377aa222b",
+    href: "https://www.linkedin.com/in/nasir-mohi-u-deen-najar-377aa222b/",
     color: "#00d4ff",
     description: "Professional network",
+  },
+  {
+    icon: ExternalLink,
+    label: "GeeksforGeeks",
+    value: "geeksforgeeks.org/profile/nasirahmed121",
+    href: "https://www.geeksforgeeks.org/profile/nasirahmed121",
+    color: "#00ff9f",
+    description: "Coding practice",
+  },
+  {
+    icon: ExternalLink,
+    label: "LeetCode",
+    value: "leetcode.com/u/NasirAhmed321/",
+    href: "https://leetcode.com/u/NasirAhmed321/",
+    color: "#ec4899",
+    description: "DSA profile",
   },
 ];
 
@@ -37,7 +53,7 @@ export default function Contact() {
   const [copied, setCopied] = useState(false);
 
   const copyEmail = () => {
-    navigator.clipboard.writeText("shahobair20@gmail.com");
+    navigator.clipboard.writeText("2023nitsgr289@nitsri.ac.in");
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
@@ -117,7 +133,7 @@ export default function Contact() {
 
           <div className="flex flex-wrap justify-center gap-4">
             <a
-              href="mailto:shahubair@example.com"
+              href="mailto:2023nitsgr289@nitsri.ac.in"
               className="group flex items-center gap-2 px-8 py-3.5 rounded font-mono text-sm tracking-wider transition-all duration-300"
               style={{
                 background: "linear-gradient(135deg, rgba(0,212,255,0.15), rgba(168,85,247,0.15))",
@@ -192,7 +208,7 @@ export default function Contact() {
             </span>
           </div>
           <div className="font-display text-xs font-bold tracking-widest text-slate-700">
-            SHAH UBAIR © 2026 — AI + FULL STACK DEVELOPER
+            NASIR AHMAD © 2026 — CSE STUDENT & FULL STACK DEVELOPER
           </div>
         
         </motion.div>

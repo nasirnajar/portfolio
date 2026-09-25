@@ -33,20 +33,32 @@ const commands = {
     {
       icon: Github,
       label: "GitHub",
-      action: () => window.open("https://github.com/shahubair", "_blank"),
-      hint: "github.com/shahubair",
+      action: () => window.open("https://github.com/nasirnajar", "_blank"),
+      hint: "github.com/nasirnajar",
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      action: () => window.open("https://linkedin.com/in/shahubair", "_blank"),
-      hint: "linkedin.com/in/shahubair",
+      action: () => window.open("https://www.linkedin.com/in/nasir-mohi-u-deen-najar-377aa222b/", "_blank"),
+      hint: "linkedin.com/in/nasir-mohi-u-deen-najar-377aa222b",
     },
     {
       icon: Mail,
       label: "Email",
-      action: () => window.open("mailto:shahubair@example.com", "_blank"),
-      hint: "shahubair@example.com",
+      action: () => window.open("mailto:2023nitsgr289@nitsri.ac.in", "_blank"),
+      hint: "2023nitsgr289@nitsri.ac.in",
+    },
+    {
+      icon: ExternalLink,
+      label: "GeeksforGeeks",
+      action: () => window.open("https://www.geeksforgeeks.org/profile/nasirahmed121", "_blank"),
+      hint: "geeksforgeeks.org/profile/nasirahmed121",
+    },
+    {
+      icon: ExternalLink,
+      label: "LeetCode",
+      action: () => window.open("https://leetcode.com/u/NasirAhmed321/", "_blank"),
+      hint: "leetcode.com/u/NasirAhmed321",
     },
   ],
   Projects: [

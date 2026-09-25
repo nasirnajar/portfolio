@@ -14,8 +14,8 @@ const bootLines = [
   { text: "Connecting to distributed network... [OK]", delay: 1100 },
   { text: "Scanning quantum memory banks... [OK]", delay: 1450 },
   { text: "Initializing holographic render engine... [OK]", delay: 1800 },
-  { text: "User profile detected: SHAH_UBAIR", delay: 2300 },
-  { text: "Clearance level: ARCHITECT", delay: 2700 },
+  { text: "User profile detected: NASIR_AHMAD", delay: 2300 },
+  { text: "Clearance level: DEVELOPER", delay: 2700 },
   { text: "All systems nominal. Launching interface...", delay: 3100 },
 ];
 
@@ -75,7 +75,7 @@ export default function BootSequence({ onComplete }: BootSequenceProps) {
                     ◈ SYSTEM INITIALIZATION PROTOCOL ◈
                   </div>
                   <div className="font-display text-xl font-bold neon-cyan tracking-widest">
-                    UBAIR_OS v2027
+                    NASIR_OS v2026
                   </div>
                 </motion.div>
 
@@ -168,7 +168,7 @@ export default function BootSequence({ onComplete }: BootSequenceProps) {
                     filter: "drop-shadow(0 0 30px rgba(0,212,255,0.5))",
                   }}
                 >
-                  SHAH UBAIR
+                  NASIR AHMAD
                 </motion.h1>
                 <motion.div
                   initial={{ scaleX: 0 }}

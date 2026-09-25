@@ -63,7 +63,7 @@ export default function Navigation({ onCmdOpen }: NavProps) {
               >
                 <Image
                   src="/profile.jpg"
-                  alt="Shah Ubair"
+                  alt="Nasir Ahmad"
                   width={40}
                   height={40}
                   className="w-full h-full object-cover"
@@ -77,7 +77,7 @@ export default function Navigation({ onCmdOpen }: NavProps) {
               data-hover
             >
               <span className="font-display text-sm font-bold tracking-widest neon-blue hidden sm:block hover:text-cyber-cyan transition-colors">
-                SU
+                NA
               </span>
             </button>
           </div>
@@ -191,7 +191,7 @@ export default function Navigation({ onCmdOpen }: NavProps) {
                 >
                   <Image
                     src="/profile.jpg"
-                    alt="Shah Ubair - Full Profile"
+                    alt="Nasir Ahmad - Full Profile"
                     width={600}
                     height={600}
                     className="w-full h-full object-cover"

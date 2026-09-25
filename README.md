@@ -1,4 +1,4 @@
-# 🚀 Shah Ubair — Interactive Portfolio
+# 🚀 Nasir Ahmad — Interactive Portfolio
 
 A next-level, game-like interactive portfolio built with **Next.js 14**, **Tailwind CSS**, **Framer Motion**, and a canvas-based neural network background.
 
@@ -102,7 +102,7 @@ No environment variables needed for the base portfolio.
 
 | What | File | What to change |
 |------|------|---------------|
-| Your name, location, bio | `components/sections/Hero.tsx` | `SHAH UBAIR`, location, tagline |
+| Your name, location, bio | `components/sections/Hero.tsx` | `NASIR AHMAD`, location, tagline |
 | About stats & timeline | `components/sections/About.tsx` | `stats`, `timeline` arrays |
 | Internship details | `components/sections/Experience.tsx` | `experiences` array |
 | Projects | `components/sections/Projects.tsx` | `projects` array |
