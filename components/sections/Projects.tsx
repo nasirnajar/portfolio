@@ -310,39 +310,57 @@ function ProjectCard({ project, i }: { project: (typeof projects)[0]; i: number 
           </div>
 
           {/* Footer */}
-          <div className="flex items-center justify-between">
-            <div className="flex gap-2">
-              <a
-                href={project.github}
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={(e) => e.stopPropagation()}
-                className="text-slate-500 hover:text-slate-300 transition-colors"
-                data-hover
-              >
-                <Github size={15} />
-              </a>
-              {project.live && (
-                <a
-                  href={project.live}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  onClick={(e) => e.stopPropagation()}
-                  className="text-slate-500 hover:text-slate-300 transition-colors"
-                  data-hover
-                >
-                  <ExternalLink size={15} />
-                </a>
-              )}
-            </div>
-            <span
-              className="font-mono text-xs transition-all duration-300 flex items-center gap-1 opacity-0 group-hover:opacity-100"
-              style={{ color: project.color }}
-            >
-              View details <ArrowRight size={11} />
-            </span>
-          </div>
-        </div>
+<div className="flex items-center justify-between">
+  <div className="flex items-center gap-2">
+
+    {/* GitHub */}
+    <a
+      href={project.github}
+      target="_blank"
+      rel="noopener noreferrer"
+      onClick={(e) => e.stopPropagation()}
+      className="flex items-center gap-1.5 px-3 py-1.5 rounded border
+                 text-xs font-mono transition-all duration-300"
+      style={{
+        borderColor: project.color + "25",
+        color: project.color + "aa",
+        background: project.color + "08",
+      }}
+      data-hover
+    >
+      <Github size={13} />
+      GitHub
+    </a>
+
+    {/* Live Demo */}
+    {project.live && (
+      <a
+        href={project.live}
+        target="_blank"
+        rel="noopener noreferrer"
+        onClick={(e) => e.stopPropagation()}
+        className="flex items-center gap-1.5 px-3 py-1.5 rounded border
+                   text-xs font-mono transition-all duration-300"
+        style={{
+          borderColor: project.color + "40",
+          color: project.color,
+          background: project.color + "12",
+        }}
+        data-hover
+      >
+        <ExternalLink size={13} />
+        Live Demo
+      </a>
+    )}
+  </div>
+
+  <span
+    className="font-mono text-xs transition-all duration-300 flex items-center gap-1 opacity-0 group-hover:opacity-100"
+    style={{ color: project.color }}
+  >
+    View details <ArrowRight size={11} />
+  </span>
+</div>
       </motion.div>
 
       <AnimatePresence>
